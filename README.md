@@ -1,27 +1,15 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Unknown Today
+## システム概要
+- 記事作成側
+  - 投稿機能はなし
+  - マークダウンとかで書いてJSONで出力してくれる感じ
+  - 画像の入れ方は考え中
+  - 下書き機能あり、LocalStorageに保存する
+- CI
+  - GitHub Actionsで動かす
+  - 記事作成側で作ったJSONをもとにページネーションとか諸々を叶えるJSONを追加で生成する
+  - トップページ = ページネーションの1ページ目で、10記事くらい表示する
+  - それ以降もページネーションで遷移できるようにJSONを生成
+  - 初期では不要だけど、各ページに関連記事を表示するのもここのCIで生成しきる
+- 記事閲覧側
+  - 

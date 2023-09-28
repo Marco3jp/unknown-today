@@ -17,7 +17,7 @@ export default function NewsPage() {
 
     return (
         <>
-            <main className="conainer px-4">
+            <main className="px-4">
                 <article>
                     <div className="border-b py-2">
                         <h2 className="inline text-lg font-bold">{newsMock.title}</h2>

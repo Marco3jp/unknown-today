@@ -13,7 +13,7 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
     return (
         <html lang="ja">
         <body className={inter.className}>
-        <div className="container mx-auto">
+        <div className="container mx-auto sm:w-2/5">
             <header className="py-2">
                 <h1>
                     <a href="/" className="block px-4"><img className="w-full aspect-[3237/1176]" src="/logo.svg" alt="Unknown Today"/></a>

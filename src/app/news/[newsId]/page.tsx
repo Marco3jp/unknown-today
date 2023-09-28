@@ -7,7 +7,8 @@ export default function NewsPage() {
         content: "<p>Unknown Todayが創刊されました。</p>" +
             "<p>Unknown Todayは個人が営む新聞ではありつつも、従来はなかった切り口で『今日』を写します。</p>" +
             "<p>誰にも知られていなかった『今日』をぜひ味わっていただければと思います。</p>" +
-            "<p>そしてあなたに『今日』がやってきますように。</p>",
+            "<p>そしてあなたに『今日』がやってきますように。</p>" +
+            "<p>―― Unknown Today <span class='bg-gray-300 blur-sm'>----------------</span> Marco</p>",
         authors: ["Marco"],
         tag: ["編集部より"],
         date: "2023/09/28", // WIP: リリース日に合わせて調整する

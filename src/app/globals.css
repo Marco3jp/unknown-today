@@ -17,3 +17,13 @@
 body {
     color: rgb(var(--foreground-rgb));
 }
+
+@layer base {
+    a {
+        @apply text-blue-500 underline;
+    }
+
+    a:visited {
+        @apply text-blue-700 underline;
+    }
+}
